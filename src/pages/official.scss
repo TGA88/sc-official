@@ -1,0 +1,32 @@
+.official-container{
+ /*official-container*/
+
+>.banner{
+/*official-container >.banner*/
+}
+
+>.row{
+    /*official-container >.row*/
+}
+
+>.section{
+    /*officail-container > .section*/
+    &.-song{
+        /*officail-container > .section.-song*/
+    }
+    &.-home{
+        /*officail-container > .section.-home*/
+    }
+}
+
+}
+
+/*tablet*/
+@media only screen and (max-width: 1024px){
+
+}
+
+/*mobile*/
+@media only screen and (max-width: 360x){
+
+}
