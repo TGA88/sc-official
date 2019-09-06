@@ -1,6 +1,41 @@
-.footer{
-    >.sc-footer{
-        min-height: 238px;
+
+.sc-layout{
+    position: relative;
+    >.header{
+    position: absolute;
+        top:0;
+        left: 0px;
+        width:100%;
+        height: 10vh;
+        background: #EFEFEF 0% 0% no-repeat padding-box;
+        z-index: 10;
     }
-   
+    >.content{
+        /* display*/
+        display: flex;
+        flex-direction: column;
+        /*dimension*/
+        width:100%;
+        height: 90vh;
+
+        /*position*/
+        position: absolute;
+        overflow-y: auto;
+        z-index: 1;
+
+        /*margin & padding*/
+        // margin-top: -10vh;
+        padding-top:10vh;
+      
+        /*other */
+        background: blue;
+        border: 1px solid blue;
+    }
+    >.content>.footer{
+        >.sc-footer{
+            max-height: 238px;
+          // max-height: 25vh;
+        }
+       
+    }
 }
