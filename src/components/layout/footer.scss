@@ -39,7 +39,11 @@
 
     margin: 1rem 5.5rem 1rem auto;
     text-decoration: none;
-    color: white;
+    color: #FFFFFF;
+    -webkit-text-fill-color: #FFFFFF;
+    opacity: 1;
+    
+    
     font-size: 20px;
     &:hover{
         cursor: pointer;
@@ -50,7 +54,10 @@
     /*copyright*/   
     padding: 1rem 0; 
     color:#CCCCCC;
+    -webkit-text-fill-color: #CCCCCC;
     opacity: 1;
+    -webkit-opacity: 1; 
+  
     text-align: center;
     font-family: 'eq_headlineregular';
     font-size: 16px;
@@ -117,13 +124,7 @@
           flex-wrap: nowrap;
 
        }
-       >.box.-bottomline{
-           padding-top: 1rem;
-           padding-bottom: 2rem;
-           border-bottom:1px solid rgba(255,255,255,0.4);
-           align-items: center;
-          
-       }
+     
      
        
        >.box.-bottomline>.logo{
@@ -133,11 +134,7 @@
     }
 
     
-       >.box>.nav{
-           /**/
-           
-          //margin-right: auto;
-       }
+     
        >.box>.nav>.navlink{
         margin: 0rem 1.25rem;
        font-size: 14px;
@@ -183,7 +180,8 @@
         padding: 1rem;
         >.box>.nav>.navlink{
             margin: 0rem 1rem;
-         
+        
         }
+       
     }     
 }
