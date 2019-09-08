@@ -1,3 +1,4 @@
+@import "./menu.scss";
 
 .sc-header{
     display:flex;
@@ -23,6 +24,10 @@
         opacity: 1;
         -webkit-text-fill-color: #380E00;
         margin:0 3rem;
+   }
+
+   .nav.-mobile{
+       display: none;
    }
 }
 
@@ -55,14 +60,28 @@
             height: 2rem;
            
         }
-        >.nav{
-            /*sc-header>.nav*/
-            margin-right: -1.5rem;
-         }
-        >.nav>.navlink{
-            font-size: 14px;
-            margin:0 1.5rem;
-       }
+    //     >.nav{
+    //         /*sc-header>.nav*/
+    //         margin-right: -1.5rem;
+    //      }
+    //     >.nav>.navlink{
+    //         font-size: 14px;
+    //         margin:0 1.5rem;
+    //    }
+    >.nav{
+        /*sc-header>.nav*/
+       display: none;
+     }
+  
+
+       >.nav.-mobile{
+        /*sc-header>.nav*/
+        display:flex;
+        margin-right: -1.5rem;
+     }
+
+
+    
     } 
 }
 
